@@ -9,7 +9,7 @@ namespace Test
         {
             Person person = new Person("Boutet", "Clément", 20);
             person.Age = 19;
-            Assert.Equal(person.Age, 19);
+            Assert.Equal(person.Age, 29);
         
         }
     }
